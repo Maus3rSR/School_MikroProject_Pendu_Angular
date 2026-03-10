@@ -9,7 +9,7 @@ Le Pendu est un jeu de devinette où l'objectif est de trouver un mot caché en 
 - Chaque erreur fait apparaître une partie du dessin du pendu
 - Le mot est affiché avec des underscores (\_) pour les lettres non trouvées
 
-## Fonctionnalités à développer
+## Fonctionnalités minimales à développer
 
 ### Initialisation du jeu
 
@@ -57,6 +57,8 @@ Le Pendu est un jeu de devinette où l'objectif est de trouver un mot caché en 
 - Stocker le record dans le localStorage pour une persistance des données, ou simplement dans une variable du service Angular (les données seront perdues au rechargement de la page)
 
 ### Rejouer
+
+## Fonctionnalités complémentaires à développer
 
 Quand le joueur clique sur "Nouvelle Partie" ou "Rejouer" :
 
