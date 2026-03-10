@@ -76,6 +76,20 @@ Vous devez intégrer une API externe afin de récupérer des mots aléatoires.
 https://random-words-api.kushcreates.com/
 ```
 
+### Historique des parties
+
+Quand le joueur clique sur "Historique des parties" :
+
+- Redirection sur une page `/history`
+- Afficher l'historique des parties jouées
+  - Date de la partie
+  - Mot à trouver
+  - Lettres trouvées
+  - Nombre d'erreurs
+  - Statut (gagné/perdu)
+- Stocker les parties dans le localStorage pour une persistance des données, ou simplement dans une variable du service Angular (les données seront perdues au rechargement de la page)
+- Afficher le nombre de parties gagnées et perdues
+
 ## Notes
 
 - [Voir la documentation de DaisyUI](https://daisyui.com/components/) pour les componsants Badge, Modal, etc.
